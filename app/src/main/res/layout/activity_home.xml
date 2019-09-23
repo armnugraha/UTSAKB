@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="#DEDEDE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:orientation="vertical"
+            android:background="#FFF"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                app:srcCompat="@mipmap/ic_welcome_parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeay, Selamat :)"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+
+            <TextView
+                android:id="@+id/tvWelcome2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Silahkan Gunakan Kode Ini Untuk Masuk Kedalam Aplikasi Anak"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="AVGR99"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/button_transparent"
+                android:layout_marginTop="8dp"
+                android:textColor="#00B5B8"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:textAlignment="center"
+            android:text="Bingung saat membuat kesepakatan instalasi dengan anak?" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp"
+            android:text="Lihat Tutorial"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textColor="#FFF"
+            android:background="@drawable/button_register"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
